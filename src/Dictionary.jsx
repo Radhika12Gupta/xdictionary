@@ -36,7 +36,7 @@ const Dictionary = () => {
       <input type="text" value={word} placeholder="Search for a word..." onChange={e=> setWord(e.target.value)}/>
       <button onClick={handleClick}>Search</button>
 
-      <h5>Dictionary:</h5>
+      <h5>Definition:</h5>
       <p>{definition}</p>
     </div>
   )
